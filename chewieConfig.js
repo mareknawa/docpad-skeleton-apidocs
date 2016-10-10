@@ -10,7 +10,7 @@ const config = {
 
   registry: {
     location: process.env.REGISTRY_LOCATION || 'remote',
-    path: process.env.REGISTRY_PATH || 'https://github.com/mareknawa/docpad-skeleton-apidocs-sampledata.git',
+    path: process.env.REGISTRY_PATH || 'https://github.com/mareknawa/apidoc-workshop-docu_registry.git',
     fileName: 'docu_registry.json',
     branch: process.env.docuBranch || 'master',
     shortVersionFileName: 'shrinkedRegistry.json',
